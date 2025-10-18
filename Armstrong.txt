@@ -9,7 +9,7 @@ temp=$num
 while [ $temp -gt 0 ]
 do
     digit=$((temp % 10))
-    sum=$((sum + digit*digit*digit))  # cube of digit (easy, for 3-digit numbers)
+    sum=$((sum + digit*digit*digit)) 
     temp=$((temp / 10))
 done
 
